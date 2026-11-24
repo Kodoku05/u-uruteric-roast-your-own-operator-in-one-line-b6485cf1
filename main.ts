@@ -1,5 +1,6 @@
 // Roast Your Own Operator in One Line — u-uruteric-roast-your-own-operator-in-one-line-b6485cf1
 // Writes exactly one line of text (1–140 characters) to /output/entry.txt.
+// The line below is 130 characters of the 140 allowed.
 // Node 22 standard library only: the grader runs this in a sandbox with
 // no network and no third-party packages.
 import { mkdirSync, writeFileSync } from "node:fs";
